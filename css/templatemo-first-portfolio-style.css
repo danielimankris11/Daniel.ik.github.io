@@ -505,6 +505,8 @@ strong {
 }
 
 .hero-image-wrap {
+  text-align: center;
+  padding-top: 15px;
   background: var(--white-color);
   border-radius: 100%;
   width: 350px;
@@ -519,11 +521,10 @@ strong {
 }
 
 .hero-image {
-  position: absolute;
-  z-index: 22;
-  top: 0;
-  width: 100%;
-  min-width: 550px;
+     z-index: 22;
+     top: 0;
+     width: 70%;
+     
 }
 
 .hero svg {
@@ -992,10 +993,6 @@ strong {
     top: -50px;
     width: 400px;
     height: 400px;
-  }
-
-  .hero-image {
-    min-width: 650px;
   }
   
   .hero-title,
